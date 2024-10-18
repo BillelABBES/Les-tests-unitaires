@@ -2,10 +2,10 @@ package org.example;
 
 import org.junit.jupiter.api.Test;
 
-public class AppTest {
+public class StringManipulatorTest {
 
     @Test
-    public void basicTest(){
-        assert (false);
+    public void testReverseString(){
+
     }
 }
