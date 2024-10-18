@@ -6,6 +6,10 @@ import java.util.List;
 public class Program {
     List<Course> courses = new ArrayList<>();
 
+    public List<Course> getCourses() {
+        return courses;
+    }
+
     public void addCourse(Course course){
         courses.add(course);
     }
